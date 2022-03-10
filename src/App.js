@@ -1,12 +1,13 @@
 
 import './App.css';
-import Header from './component/Layout/Header';
+import Home from './Pages/Home';
+
 
 function App() {
   return (
-    <div className="wrapper fixed__footer">
-       <Header />
-    </div>
+   <div className='wrapper fixed__footer'>
+     <Home />
+   </div>
   );
 }
 
