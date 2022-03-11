@@ -35,6 +35,162 @@
                 ]
             },
             "mega_dropdown": {}
+        },
+        {
+            "id": 3,
+            "text": "blog",
+            "class": "drop",
+            "link": "/blog",
+            "dropdown": {},
+            "mega_dropdown": {}
+        },
+       
+        {
+            "id":5,
+            "text":"shop",
+            "class":"shop",
+            "link":"/shop",
+            "dropdown":{
+                "class":"dropdown",
+                "dropdownMenu": [
+                    {
+                        "id": 5.1,
+                        "text":"mega__title",
+                        "class":"drop",
+                        "link":"/mega__title",
+                        "dropdown":{
+                            "class":"dropdown",
+                            "dropdownMenu":[
+                                {
+                                    "id":"5.2",
+                                    "text":"shop",
+                                    "class":"drop",
+                                    "link":"/shop",
+                                    "dropdown": {},
+                                    "mega_dropdown": {}
+                                }
+                            ]
+                        }
+                    }
+                ]
+
+
+            },
+            "mega_dropdown":{}
+          
+        },
+        {
+            "id": 6,
+            "text": "page",
+            "class": "drop",
+            "link": "/page",
+            "dropdown": {
+                "class":"dropdown",
+                "dropdownMenu":[
+                    {
+                        "id":"6.1",
+                        "text":"about",
+                        "cladd":"drop",
+                        "link":"/about",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    },
+                    {
+                        "id":"6.2",
+                        "text":"about",
+                        "cladd":"drop",
+                        "link":"/about",
+                        "dropdown":{
+                            "class":"dropdown",
+                            "dropdownMenu":[
+                                {
+                                    "id":"6.3",
+                                    "text":"customer-review",
+                                    "cladd":"drop",
+                                     "link":"/abcustomer-reviewout",
+                                     "dropdown":{},
+                                     "mega_dropdown":{}
+                                }
+                            ]
+                        },
+                        "mega_dropdown":{} 
+                    },
+                    {
+                        "id":"6.4",
+                        "text":"shop",
+                        "cladd":"drop",
+                        "link":"/shop",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    },
+                    {
+                        "id":"6.5",
+                        "text":"shop-sidebar",
+                        "cladd":"drop",
+                        "link":"/shop-sidebar",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    },
+                    {
+                        "id":"6.6",
+                        "text":"product-details",
+                        "cladd":"drop",
+                        "link":"/product-details",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    },
+                    {
+                        "id":"6.7",
+                        "text":"cart",
+                        "cladd":"drop",
+                        "link":"/cart",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    },
+                    {
+                        "id":"6.9",
+                        "text":"wishlist",
+                        "cladd":"drop",
+                        "link":"/wishlist",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    },
+                    {
+                        "id":"6.10",
+                        "text":"checkout",
+                        "cladd":"drop",
+                        "link":"/checkout",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    },
+                    {
+                        "id":"6.11",
+                        "text":"team",
+                        "cladd":"drop",
+                        "link":"/team",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    },
+                    {
+                        "id":"6.12",
+                        "text":"login-register",
+                        "cladd":"drop",
+                        "link":"/login-register",
+                        "dropdown":{},
+                        "mega_dropdown":{}
+                    }
+
+                ]
+            },
+            "mega_dropdown": {}
+        },
+        {
+            "id":"7",
+            "text":"contact",
+            "cladd":"drop",
+            "link":"/contact",
+            "dropdown":{},
+            "mega_dropdown":{} 
         }
     ]
 }

@@ -5,34 +5,33 @@ const Menus = () => {
   return (
     <div>
         <nav className="mainmenu__nav hidden-xs hidden-sm">
-                          <ul className="main__menu">
-                                 {menusData.menus.length > 0 && menusData.menus.map(menu =>(
+             <ul className="main__menu">
+                     {menusData.menus.length > 0 && menusData.menus.map(menu =>(
 
                                  
-                                    <li key={menu.id} className={menu.class}>
-                                        <a href={menu.link}>
-                                            {menu.text}
-                                        </a>
+                    <li key={menu.id} className={menu.class}>
+                   <a href={menu.link}>
+                   {menu.text}
+                 </a>
                             
-                                    </li>
+               </li>
 
-                                 ))}
-                                    {/* <li className="drop"><a href="portfolio-card-box-2.html">portfolio</a>
+              ))} 
+              {/* <li className="drop"><a href="portfolio-card-box-2.html">portfolio</a>
 
-                                        <ul className="dropdown">
+                <ul className="dropdown">
                                             
 
-                                            
-                                            <li><a href="portfolio-card-box-2.html">portfolio</a></li>
-                                            <li><a href="single-portfolio.html">Single portfolio</a></li>
-                                        </ul>
-                                    </li> */}
-                                    {/* <li className="drop"><a href="blog.html">Blog</a>
-                                        <ul className="dropdown">
-                                            <li><a href="blog.html">blog 3 column</a></li>
-                                            <li><a href="blog-details.html">Blog details</a></li>
-                                        </ul>
-                                    </li> */}
+                    
+              <li><a href="portfolio-card-box-2.html">portfolio</a></li>               <li><a href="single-portfolio.html">Single portfolio</a></li>
+              </ul>
+            </li> */}
+          {/* <li className="drop"><a href="blog.html">Blog</a>
+             <ul className="dropdown">
+             <li><a href="blog.html">blog 3 column</a></li>
+               <li><a href="blog-details.html">Blog details</a></li>
+               </ul>
+               </li> */}
                                     <li className="drop"><a href="shop.html">Shop</a>
 
                                         <ul className="dropdown mega_dropdown">
@@ -68,7 +67,16 @@ const Menus = () => {
                                     </li>
                                     <li className="drop"><a href="#">pages</a>
                                         <ul className="dropdown">
-                                            <li><a href="about.html">about</a></li>
+                                            
+                                            {/* {menusData.menus.dropdown.length > 0 && menusData.menus.dropdown.map(item =>(
+                                                <li key={item.id} className={item.class}>
+                                                     <a href={item.link}>
+                                                         {item.text}
+                                                    </a>
+                                                </li> */}
+                                                
+                                                
+                                            ))}
                                             <li><a href="#">testimonials <span><i className="zmdi zmdi-chevron-right"></i></span></a>
                                                 <ul className="lavel-dropdown">
                                                     <li><a href="customer-review.html">customer review</a></li>
