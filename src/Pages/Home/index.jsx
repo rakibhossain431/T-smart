@@ -1,12 +1,13 @@
 import React from 'react'
+
 import Header from '../../Componet/Header'
-import CategoriesSlider from '../../Componet/CategoriesSlider'
+// import CategoriesSlider from '../../Componet/CategoriesSlider'
 
 const Home = () => {
   return (
     <div>
         <Header />
-        <CategoriesSlider />
+        {/* <CategoriesSlider /> */}
     </div>
   )
 }

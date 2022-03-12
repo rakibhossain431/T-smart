@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 // import logo from '../../images/logo/logo.png'
 
 // import Thum2 from '../../images/icons/thum2.png'
@@ -22,9 +22,9 @@ import React from 'react'
 // import imageProduct1 from '../../images/product/sm-img/1.jpg'
 // import imageProduct2 from '../../images/product/sm-img/2.jpg'
 
-const CategoriesSlider = () => {
-  return (
-      <h1>rakib</h1>
+// const CategoriesSlider = () => {
+//   return (
+      
     
         // // <div className="offset__wrapper">
         // <section className="categories-slider-area bg__white">
@@ -312,7 +312,7 @@ const CategoriesSlider = () => {
         //     </div>
         // </section>
         
-  )
-}
+//   )
+// }
 
-export default CategoriesSlider
+// export default CategoriesSlider
