@@ -38,7 +38,7 @@
             "id": 5,
             "text": "Shop",
             "class": "drop",
-            "link": "./shop",
+            "link": "/shop",
             "dropdown": [
                 {
                     "id": 6,
@@ -81,13 +81,13 @@
             "id": 10,
             "text": "Pages",
             "class": "drop",
-            "link": "./pages",
+            "link": "/pages",
             "dropdown":[
                 {
                     "id": 11,
                     "text": "about",
                     "class": "",
-                    "link": "./about",
+                    "link": "/about",
                     "dropdown": {},
                     "mega_dropdown": {}
                 },
@@ -112,7 +112,7 @@
                     "id": 14,
                     "text": "Shop",
                     "class": "",
-                    "link": "#",
+                    "link": "/Shop",
                     "dropdown": {},
                     "mega_dropdown": {}
                 },
@@ -128,7 +128,7 @@
                     "id": 16,
                     "text": "Product details",
                     "class": "",
-                    "link": "/product-details.html",
+                    "link": "/product-details",
                     "dropdown": {},
                     "mega_dropdown": {}
                 },
@@ -136,7 +136,7 @@
                     "id": 17,
                     "text": "Cart",
                     "class": "",
-                    "link": "cart.html",
+                    "link": "/cart",
                     "dropdown": {},
                     "mega_dropdown": {} 
                 },
@@ -144,7 +144,7 @@
                     "id": 18,
                     "text": "wishlist",
                     "class": "",
-                    "link": "/wishlist.html",
+                    "link": "/wishlist",
                     "dropdown": {},
                     "mega_dropdown": {}
                 },
@@ -152,7 +152,7 @@
                     "id": 19,
                     "text": "Checkout",
                     "class": "",
-                    "link": "/checkout.html",
+                    "link": "/checkout",
                     "dropdown": {},
                     "mega_dropdown": {}
                 },
@@ -168,7 +168,7 @@
                     "id":21,
                     "text": "Login and register",
                     "class": "",
-                    "link": "/",
+                    "link": "/LoginRegister",
                     "dropdown": {},
                     "mega_dropdown": {}
                 }
@@ -179,7 +179,7 @@
             "id": 22,
             "text": "Contact",
             "class": "drop",
-            "link": "/contact.html",
+            "link": "/contact",
             "dropdown": {},
             "mega_dropdown": {}
         }

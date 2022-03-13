@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from "../../images/logo/logo.png"
+import Footer from './Footer'
 import Menus from './Menus'
 import MenusExtra from './MenusExtra'
 
@@ -13,9 +15,9 @@ const Header = () => {
                     <div className="row">
                         <div className="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div className="logo">
-                                <a href="index.html">
+                                <Link to="/">
                                     <img src={logo} alt="logo" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         {/* <!-- Start MAinmenu Ares --> */}
@@ -31,6 +33,7 @@ const Header = () => {
             </div>
             {/* <!-- End Mainmenu Area --> */}
         </header>
+        <Footer/>
     </div>
   )
 }

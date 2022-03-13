@@ -1,0 +1,34 @@
+{
+    "FooterMenu":[
+        {
+            "id": 1,
+            "text": "About Us",
+            "link":"/about"
+        },
+        {
+            "id": 2,
+            "text": "Contact Us",
+            "link":"contact"
+        },
+        {
+            "id": 3,
+            "text": "Terms & Conditions",
+            "link":"#"
+        },
+        {
+            "id": 4,
+            "text": "Returns & Conditions",
+            "link":"#"
+        },
+        {
+            "id": 5,
+            "text": "Shipping & Delivery",
+            "link":"/about"
+        },
+        {
+            "id": 6,
+            "text": "Privacy Policy",
+            "link":"#"
+        }
+    ]
+}

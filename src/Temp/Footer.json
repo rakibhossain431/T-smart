@@ -1,0 +1,44 @@
+{
+    "FooterCategore":[
+        {
+            "id": 1,
+            "text": "Men",
+            "link":"/shop"
+        },
+        {
+            "id": 2,
+            "text": "Women",
+            "link":"/shop"
+        },
+        {
+            "id": 3,
+            "text": "Accessories",
+            "link":"/shop"
+        },
+        {
+            "id": 4,
+            "text": "Shoes",
+            "link":"/shop"
+        },
+        {
+            "id": 5,
+            "text": "Dress",
+            "link":"/shop"
+        },
+        {
+            "id": 6,
+            "text": "Denim",
+            "link":"/shop"
+        },
+        {
+            "id": 7,
+            "text": "About Us",
+            "link":"/about"
+        },
+        {
+            "id": 8,
+            "text": "Contact Us",
+            "link":"/contact"
+        }
+    ]
+}
