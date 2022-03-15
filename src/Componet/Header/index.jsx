@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../../images/logo/logo.png"
-import Footer from './Footer'
+
 import Menus from './Menus'
 import MenusExtra from './MenusExtra'
 
 const Header = () => {
   return (
-    <div>
+    
         <header id="header" className="htc-header header--3 bg__white">
             {/* <!-- Start Mainmenu Area --> */}
             <div id="sticky-header-with-topbar" className="mainmenu__area sticky__header">
@@ -33,8 +33,8 @@ const Header = () => {
             </div>
             {/* <!-- End Mainmenu Area --> */}
         </header>
-        <Footer/>
-    </div>
+        
+    
   )
 }
 

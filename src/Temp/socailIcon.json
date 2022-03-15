@@ -1,0 +1,29 @@
+{
+    "socailIcon":[
+        {
+            "id": 1,
+            "class1":"bg--twitter",
+            "class2":"zmdi zmdi-twitter",
+            "link": "www.twitter.com"
+        },
+        {
+            "id": 2,
+            "class1":"bg--instagram",
+            "class2":"zmdi zmdi-instagram",
+            "link": "www.instagram.com"
+        },
+        {
+            "id": 3,
+            "class1":"bg--facebook",
+            "class2":"zmdi zmdi-facebook",
+            "link": "www.facebook.com"
+        },
+        {
+            "id": 4,
+            "class1":"bg--googleplus",
+            "class2":"zmdi zmdi-google",
+            "link": "www.google.com"
+        }
+    ]
+    
+}

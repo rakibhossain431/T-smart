@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../../images/logo/logo.png'
+import Icon from '../../../Pages/LoginRegister/Auth/Icon'
 import footerData from "../../../Temp/Footer.json"
 import menuData from "../../../Temp/FooterMenu.json"
 
@@ -46,10 +47,11 @@ const Footer = () => {
                                     </ul>
                                 </div>
                                 <ul class="social__icon">
-                                    <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <footerIcon />
+                                    {/* <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
                                     <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
                                     <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li> */}
                                 </ul>
                             </div>
                         </div>
