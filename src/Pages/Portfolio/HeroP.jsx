@@ -1,12 +1,9 @@
 import React from 'react'
-import Header from '../../Componet/Header'
-import Footer from '../../Componet/Header/Footer'
 import bgImg from '../../images/bg/rakib.jpg'
-const Pages = () => {
+
+const HeroP = () => {
   return (
-    <div>
-       <Header />
-       <div className="ht__bradcaump__area" style={{background: `rgba(0, 0, 0, 0)`,
+    <div className="ht__bradcaump__area" style={{background: `rgba(0, 0, 0, 0)`,
            backgroundImage: `url(${bgImg})`,
            backgroundRepeat: `no-repeat`,
            backgroundPosition:`center center`,  
@@ -28,9 +25,7 @@ const Pages = () => {
                 </div>
             </div>
         </div>
-      <Footer />
-    </div>
   )
 }
 
-export default Pages
+export default HeroP

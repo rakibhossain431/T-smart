@@ -6,61 +6,61 @@ import menuData from "../../../Temp/FooterMenu.json"
 
 const Footer = () => {
   return (
-    <footer class="htc__foooter__area gray-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="footer__container clearfix">
+    <footer className="htc__foooter__area gray-bg">
+            <div className="container">
+                <div className="row">
+                    <div className="footer__container clearfix">
                          {/* <!-- Start Single Footer Widget --> */}
-                        <div class="col-md-3 col-lg-3 col-sm-6">
-                            <div class="ft__widget">
-                                <div class="ft__logo">
+                        <div className="col-md-3 col-lg-3 col-sm-6">
+                            <div className="ft__widget">
+                                <div className="ft__logo">
                                     <a href="index.html">
                                         <img src={logo} alt="footer logo"/>
                                     </a>
                                 </div>
-                                <div class="footer-address">
+                                <div className="footer-address">
                                     <ul>
                                         <li>
-                                            <div class="address-icon">
-                                                <i class="zmdi zmdi-pin"></i>
+                                            <div className="address-icon">
+                                                <i className="zmdi zmdi-pin"></i>
                                             </div>
-                                            <div class="address-text">
+                                            <div className="address-text">
                                                 <p>194 Main Rd T, FS Rayed <br/> VIC 3057, USA</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="address-icon">
-                                                <i class="zmdi zmdi-email"></i>
+                                            <div className="address-icon">
+                                                <i className="zmdi zmdi-email"></i>
                                             </div>
-                                            <div class="address-text">
+                                            <div className="address-text">
                                                 <a href="#"> info@example.com</a>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="address-icon">
-                                                <i class="zmdi zmdi-phone-in-talk"></i>
+                                            <div className="address-icon">
+                                                <i className="zmdi zmdi-phone-in-talk"></i>
                                             </div>
-                                            <div class="address-text">
+                                            <div className="address-text">
                                                 <p>+012 345 678 102 </p>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
-                                <ul class="social__icon">
+                                <ul className="social__icon">
                                     <footerIcon />
-                                    {/* <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-google-plus"></i></a></li> */}
+                                    {/* <li><a href="#"><i className="zmdi zmdi-twitter"></i></a></li>
+                                    <li><a href="#"><i className="zmdi zmdi-instagram"></i></a></li>
+                                    <li><a href="#"><i className="zmdi zmdi-facebook"></i></a></li>
+                                    <li><a href="#"><i className="zmdi zmdi-google-plus"></i></a></li> */}
                                 </ul>
                             </div>
                         </div>
                         {/* <!-- End Single Footer Widget -->
                         <!-- Start Single Footer Widget --> */}
-                        <div class="col-md-3 col-lg-2 col-sm-6 smt-30 xmt-30">
-                            <div class="ft__widget">
-                                <h2 class="ft__title">Categories</h2>
-                                <ul class="footer-categories">
+                        <div className="col-md-3 col-lg-2 col-sm-6 smt-30 xmt-30">
+                            <div className="ft__widget">
+                                <h2 className="ft__title">Categories</h2>
+                                <ul className="footer-categories">
                                     {footerData.FooterCategore.length > 0 && footerData.FooterCategore.map(footerItem =>(
                                         <li key={footerItem.id}>
                                               <a href={footerItem.link}>
@@ -78,10 +78,10 @@ const Footer = () => {
                             </div>
                         </div>
                         {/* <!-- Start Single Footer Widget --> */}
-                        <div class="col-md-3 col-lg-2 col-sm-6 smt-30 xmt-30">
-                            <div class="ft__widget">
-                                <h2 class="ft__title">Infomation</h2>
-                                <ul class="footer-categories">
+                        <div className="col-md-3 col-lg-2 col-sm-6 smt-30 xmt-30">
+                            <div className="ft__widget">
+                                <h2 className="ft__title">Infomation</h2>
+                                <ul className="footer-categories">
                                     {menuData.FooterMenu.length > 0 && menuData.FooterMenu.map(fMenu =>(
                                         <li key={fMenu.id}>
                                             <a href={fMenu.link}>
@@ -99,21 +99,21 @@ const Footer = () => {
                             </div>
                         </div>
                         {/* <!-- Start Single Footer Widget --> */}
-                        <div class="col-md-3 col-lg-3 col-lg-offset-1 col-sm-6 smt-30 xmt-30">
-                            <div class="ft__widget">
-                                <h2 class="ft__title">Newsletter</h2>
-                                <div class="newsletter__form">
+                        <div className="col-md-3 col-lg-3 col-lg-offset-1 col-sm-6 smt-30 xmt-30">
+                            <div className="ft__widget">
+                                <h2 className="ft__title">Newsletter</h2>
+                                <div className="newsletter__form">
                                     <p>Subscribe to our newsletter and get 10% off your first purchase .</p>
-                                    <div class="input__box">
+                                    <div className="input__box">
                                         <div id="mc_embed_signup">
-                                            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                                <div id="mc_embed_signup_scroll" class="htc__news__inner">
-                                                    <div class="news__input">
-                                                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required/>
+                                            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novaLidate>
+                                                <div id="mc_embed_signup_scroll" className="htc__news__inner">
+                                                    <div className="news__input">
+                                                        <input type="email"  name="EMAIL" className="email" id="mce-EMAIL" placeholder="Email Address" required/>
                                                     </div>
                                                     {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
-                                                    <div style={{position: "absolute", left: "-5000px", ariaHidden:"true"}}><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabindex="-1" value=""/></div>
-                                                    <div class="clearfix subscribe__btn"><input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="bst__btn btn--white__color"/>
+                                                    <div style={{position: "absolute", left: "-5000px", ariaHidden:"true"}}><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabIndex="-1" /></div>
+                                                    <div className="clearfix subscribe__btn"><input type="submit"  name="subscribe" id="mc-embedded-subscribe" class="bst__btn btn--white__color"/>
                                                         
                                                     </div>
                                                 </div>

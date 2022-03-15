@@ -1,0 +1,15 @@
+.tabs__checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.tabs__checkbox > div{
+    display: flex;
+    align-items: center;
+    
+}
+.tabs__checkbox input{
+    width: 16px;
+}
+.htc__login__btn button{
+    padding: 10px;
+}

@@ -22,12 +22,11 @@ const LoginRegister = () => {
   return (
     <div>
         <Header/>
-        <div className="htc__login__register bg__white ptb--130" style=
-            {{background:`rgba(0, 0, 0, 0)`, 
-            backgroundImage:`url ("${bgImg}")` ,
-            backgroundRepeat:`no-repeat`, 
-            backgroundPosition:  `cover`,
-            backgroundSize: `center center` }}>
+        <div className="htc__login__register bg__white ptb--130" style={{background: `rgba(0, 0, 0, 0)`,
+           backgroundImage: `url(${bgImg})`,
+           backgroundRepeat: `no-repeat`,
+           backgroundPosition:`center center`,  
+           backgrounSize:`cover` }}>
         
             <div className="container">
                 <div className="row">

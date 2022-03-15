@@ -1,0 +1,17 @@
+
+ {
+     "portfolio":[
+         {
+             "id":1,
+             "class2":"portfolio-img",
+             "class3":"portfolio-icon",
+             "class4":"img-poppu",
+             "class5":"zmdi zmdi-instagram",
+            
+             "link": "/single-portfolio",
+              "text":"TITLE GOES HERE",  
+             "title":"Design"
+
+         }
+     ]
+ }

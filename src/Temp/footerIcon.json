@@ -1,0 +1,24 @@
+{
+    "footerIcon":[
+        {
+            "id": 5,
+            "class":"zmdi zmdi-google",
+            "link": "www.twitter.com" 
+        },
+        {
+            "id": 6,
+            "class2":"zmdi zmdi-instagram",
+            "link": "www.instagram.com"
+        },
+        {
+            "id": 7,
+            "class2":"zmdi zmdi-facebook",
+            "link": "www.facebook.com"
+        },
+        {
+            "id": 8,
+            "class2":"zmdi zmdi-google",
+            "link": "www.google.com"
+        }
+    ]
+}

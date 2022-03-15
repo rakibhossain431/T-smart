@@ -1,13 +1,16 @@
 import React from 'react'
 import Header from '../../Componet/Header'
 import Footer from '../../Componet/Header/Footer'
+import HeroS from './HeroS'
+import ShopCard from './ShopCard'
 
 
 const Shop = () => {
   return (
     <div>
       <Header/>
-      <h1>Hello This is Shop page</h1>
+      <HeroS />
+      <ShopCard />
       <Footer />
     </div>
   )
