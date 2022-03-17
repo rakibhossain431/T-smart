@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import Header from '../../Componet/Header';
-import Footer from '../../Componet/Header/Footer';
+
 import bgImg from '../../images/bg/rakib.jpg'
 import Register from './Auth/Register';
 import Login from './Auth/Login';
+import Footer from '../../Componet/Footer';
 
 
 const LoginRegister = () => {

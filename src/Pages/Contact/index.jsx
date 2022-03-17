@@ -1,6 +1,7 @@
 import React from 'react'
+import Footer from '../../Componet/Footer'
 import Header from '../../Componet/Header'
-import Footer from '../../Componet/Header/Footer'
+
 import backgroundImage from '../../images/bg/rakib.jpg'
 
 

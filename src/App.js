@@ -7,6 +7,7 @@ import Shop from './Pages/Shop'
 import Contact from './Pages/Contact';
 import Pages from './Pages/Pages';
 import LoginRegister from './Pages/LoginRegister';
+import AboutUs from './Pages/Pages/dropdownPage/AboutUs/Hero';
 
 
 
@@ -22,6 +23,7 @@ function App() {
            <Route path='/Pages' element={<Pages/>} />
            <Route path='/Shop' element={<Shop/>} />
            <Route path='/LoginRegister' element={<LoginRegister/>}/>
+           <Route path='/About' element={<AboutUs />} />
            
         </Routes>
      

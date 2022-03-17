@@ -1,11 +1,30 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../../images/logo/logo.png"
-
-import Menus from './Menus'
+import Menus from '../Menus'
 import MenusExtra from './MenusExtra'
+import OffsetMenus from './OffsetMenus'
+import OffsetMenu from './OffsetMenus/OffsetMenu'
+import SearchArea from './OffsetMenus/Search'
+import ShopCart from './OffsetMenus/ShopCart'
 
 const Header = () => {
+
+    const [toggleSearchArea , setToggleSearchArea] = useState(false)
+    const [shoppingCart , setShoppingCart] = useState(false)
+    const [offsetmenu , setOffsetmenu] = useState(false)
+    console.log(toggleSearchArea);
+
+    useEffect(() =>{
+       document.querySelector('body').classList.add("search__box__show__hide")
+    },[])
+    useEffect(() =>{
+       document.querySelector('body').classList.add("shopping__cart__on")
+    },[])
+    useEffect(() =>{
+       document.querySelector('body').classList.add("offsetmenu__on")
+    },[])
+      
   return (
     <>
     
@@ -27,7 +46,11 @@ const Header = () => {
                                                 
                     </div>
                     {/* <!-- End MAinmenu Ares --> */}
-                    <MenusExtra/>
+                    <MenusExtra 
+                        setToggleSearchArea= {setToggleSearchArea}
+                        setShoppingCart={setShoppingCart}
+                        setOffsetmenu={setOffsetmenu}
+                    />
                 </div>
                 <div className="mobile-menu-area"></div>
             </div>
@@ -35,6 +58,19 @@ const Header = () => {
         {/* <!-- End Mainmenu Area --> */}
     </header>
     <div className='body--overlay'></div>
+    {toggleSearchArea && (
+            <SearchArea  setToggleSearchArea={setToggleSearchArea}/>
+
+        )}
+    {shoppingCart && (
+            <ShopCart  setShoppingCart={setShoppingCart}/>
+
+        )}
+    {offsetmenu && (
+            <OffsetMenu  setOffsetmenu={setOffsetmenu}/>
+
+        )}
+        
     </>
     
   )

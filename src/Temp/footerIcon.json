@@ -1,23 +1,23 @@
 {
     "footerIcon":[
         {
-            "id": 5,
+            "id": 1,
             "class":"zmdi zmdi-google",
             "link": "www.twitter.com" 
         },
         {
-            "id": 6,
-            "class2":"zmdi zmdi-instagram",
+            "id": 2,
+            "class":"zmdi zmdi-instagram",
             "link": "www.instagram.com"
         },
         {
-            "id": 7,
-            "class2":"zmdi zmdi-facebook",
+            "id": 3,
+            "class":"zmdi zmdi-facebook",
             "link": "www.facebook.com"
         },
         {
-            "id": 8,
-            "class2":"zmdi zmdi-google",
+            "id": 4,
+            "class":"zmdi zmdi-google",
             "link": "www.google.com"
         }
     ]

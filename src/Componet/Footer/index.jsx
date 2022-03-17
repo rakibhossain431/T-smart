@@ -1,8 +1,9 @@
 import React from 'react'
-import logo from '../../../images/logo/logo.png'
-import Icon from '../../../Pages/LoginRegister/Auth/Icon'
-import footerData from "../../../Temp/Footer.json"
-import menuData from "../../../Temp/FooterMenu.json"
+import logo from '../../images/logo/logo.png'
+import Icon from '../../Pages/LoginRegister/Auth/Icon'
+import footerData from "../../Temp/Footer.json"
+import menuData from "../../Temp/FooterMenu.json"
+import FooterIcon from './footerIcon'
 
 const Footer = () => {
   return (
@@ -47,7 +48,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                                 <ul className="social__icon">
-                                    <footerIcon />
+                                    <FooterIcon />
                                     {/* <li><a href="#"><i className="zmdi zmdi-twitter"></i></a></li>
                                     <li><a href="#"><i className="zmdi zmdi-instagram"></i></a></li>
                                     <li><a href="#"><i className="zmdi zmdi-facebook"></i></a></li>
@@ -106,14 +107,14 @@ const Footer = () => {
                                     <p>Subscribe to our newsletter and get 10% off your first purchase .</p>
                                     <div className="input__box">
                                         <div id="mc_embed_signup">
-                                            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novaLidate>
+                                            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                                                 <div id="mc_embed_signup_scroll" className="htc__news__inner">
                                                     <div className="news__input">
                                                         <input type="email"  name="EMAIL" className="email" id="mce-EMAIL" placeholder="Email Address" required/>
                                                     </div>
                                                     {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
                                                     <div style={{position: "absolute", left: "-5000px", ariaHidden:"true"}}><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabIndex="-1" /></div>
-                                                    <div className="clearfix subscribe__btn"><input type="submit"  name="subscribe" id="mc-embedded-subscribe" class="bst__btn btn--white__color"/>
+                                                    <div className="clearfix subscribe__btn"><input type="submit"  name="subscribe" id="mc-embedded-subscribe" className="bst__btn btn--white__color"/>
                                                         
                                                     </div>
                                                 </div>
@@ -127,15 +128,15 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* <!-- Start Copyright Area --> */}
-                <div class="htc__copyright__area">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                            <div class="copyright__inner">
-                                <div class="copyright">
+                <div className="htc__copyright__area">
+                    <div className="row">
+                        <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                            <div className="copyright__inner">
+                                <div className="copyright">
                                     <p>© 2017 <a href="https://freethemescloud.com/">Free themes Cloud</a>
                                     All Right Reserved.</p>
                                 </div>
-                                <ul class="footer__menu">
+                                <ul className="footer__menu">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="shop.html">Product</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>

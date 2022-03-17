@@ -1,7 +1,8 @@
 import React from 'react'
+import Footer from '../../Componet/Footer'
 
 import Header from '../../Componet/Header'
-import Footer from '../../Componet/Header/Footer'
+
 // import CategoriesSlider from '../../Componet/CategoriesSlider'
 
 const Home = () => {

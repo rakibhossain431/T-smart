@@ -632,7 +632,7 @@
 }
 .login__register__menu {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 0 auto 51px;
     max-width: 370px;
 }
