@@ -12,7 +12,7 @@ const Header = () => {
 
     const [toggleSearchArea , setToggleSearchArea] = useState(false)
     const [shoppingCart , setShoppingCart] = useState(false)
-    const [offsetmenu , setOffsetmenu] = useState(false)
+    const [offsetMenuBar , setOffsetMenuBar] = useState(false)
     console.log(toggleSearchArea);
 
     useEffect(() =>{
@@ -49,7 +49,7 @@ const Header = () => {
                     <MenusExtra 
                         setToggleSearchArea= {setToggleSearchArea}
                         setShoppingCart={setShoppingCart}
-                        setOffsetmenu={setOffsetmenu}
+                        setOffsetMenuBar={setOffsetMenuBar}
                     />
                 </div>
                 <div className="mobile-menu-area"></div>
@@ -66,8 +66,8 @@ const Header = () => {
             <ShopCart  setShoppingCart={setShoppingCart}/>
 
         )}
-    {offsetmenu && (
-            <OffsetMenu  setOffsetmenu={setOffsetmenu}/>
+    {offsetMenuBar && (
+            <OffsetMenu  setOffsetMenuBar={setOffsetMenuBar}/>
 
         )}
         

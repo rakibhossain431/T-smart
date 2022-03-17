@@ -8,7 +8,7 @@ import SidebarImg5 from '../../../images/sidebar-img/5.jpg'
 import SidebarImg6 from '../../../images/sidebar-img/6.jpg'
 import SidebarImg7 from '../../../images/sidebar-img/7.jpg'
 import SidebarImg8 from '../../../images/sidebar-img/8.jpg'
-const OffsetMenu = ({OffsetMenu}) => {
+const OffsetMenu = ({setOffsetMenuBar}) => {
   return (
       <>
      
@@ -16,7 +16,7 @@ const OffsetMenu = ({OffsetMenu}) => {
                 <div className="offsetmenu__inner">
                     <div className="offsetmenu__close__btn">
                         <a href="#">
-                            <i className="zmdi zmdi-close" onClick={() =>OffsetMenu(false)}/>
+                            <i className="zmdi zmdi-close" onClick={()=>setOffsetMenuBar(false)}/>
                         </a>
                     </div>
                     <div className="off__contact">
