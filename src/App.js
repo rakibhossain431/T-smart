@@ -9,8 +9,6 @@ import Pages from './Pages/Pages';
 import LoginRegister from './Pages/LoginRegister';
 import AboutUs from './Pages/Pages/dropdownPage/AboutUs/Hero';
 
-
-
 function App() {
   return (
    <div className='wrapper fixed__footer'>

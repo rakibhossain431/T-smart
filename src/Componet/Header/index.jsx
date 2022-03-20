@@ -3,13 +3,12 @@ import { Link } from 'react-router-dom'
 import logo from "../../images/logo/logo.png"
 import Menus from '../Menus'
 import MenusExtra from './MenusExtra'
-import OffsetMenus from './OffsetMenus'
+
 import OffsetMenu from './OffsetMenus/OffsetMenu'
 import SearchArea from './OffsetMenus/Search'
 import ShopCart from './OffsetMenus/ShopCart'
 
 const Header = () => {
-
     const [toggleSearchArea , setToggleSearchArea] = useState(false)
     const [shoppingCart , setShoppingCart] = useState(false)
     const [offsetMenuBar , setOffsetMenuBar] = useState(false)
@@ -27,7 +26,6 @@ const Header = () => {
       
   return (
     <>
-    
     <header id="header" className="htc-header header--3 bg__white">
         {/* <!-- Start Mainmenu Area --> */}
         <div id="sticky-header-with-topbar" className="mainmenu__area sticky__header">
@@ -72,7 +70,6 @@ const Header = () => {
         )}
         
     </>
-    
   )
 }
 
