@@ -11,7 +11,6 @@ import SidebarImg8 from '../../../images/sidebar-img/8.jpg'
 const OffsetMenu = ({setOffsetMenuBar}) => {
   return (
       <>
-     
         <div className="offsetmenu offsetmenu__on">
                 <div className="offsetmenu__inner">
                     <div className="offsetmenu__close__btn">
@@ -72,7 +71,6 @@ const OffsetMenu = ({setOffsetMenuBar}) => {
                 </div>
             </div>
       
-     
       </>
   )
 }

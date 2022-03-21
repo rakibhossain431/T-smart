@@ -3,7 +3,7 @@ import Header from '../../../../Componet/Header'
 import bgImg from "../../../../images/bg/rakib.jpg"
 // import BrandLogo from './BrandLogo'
 import ChooseUs from './ChooseUs'
-// import Costomar from './Costomar'
+import Customar from './Customar'
 import Staff from './Staff'
 
 const AboutUs
@@ -53,9 +53,7 @@ const AboutUs
       {/* About us stor stard */}
         <ChooseUs />
         <Staff />
-         
-
-        {/* <Costomar /> */}
+        <Customar />
         {/* <BrandLogo /> */}
         
     </div>
