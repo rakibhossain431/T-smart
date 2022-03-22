@@ -1,7 +1,7 @@
 import React from 'react'
-import image1 from '../../../../images/team/1.jpg'
-import image2 from '../../../../images/team/2.jpg'
-import image3 from '../../../../images/team/4.jpg'
+import image1 from '../../../images/team/1.jpg'
+import image2 from '../../../images/team/2.jpg'
+import image3 from '../../../images/team/4.jpg'
 const Staff = () => {
   return (
     <section class="htc__team__area bg__white ptb--120">

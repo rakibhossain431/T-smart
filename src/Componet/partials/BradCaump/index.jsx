@@ -1,11 +1,16 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import BradCaumpBg from '../../../images/bg/2.jpg'
+import BradCaumpBg from '../../../images/bg/rakib.jpg'
 const Bradcaump = ({title , pageName , bgImage}) => {
     const {pathname} = useLocation()
     console.log(pathname)
   return (
-    <div className="ht__bradcaump__area" style={{background: `rgba(0, 0, 0, 0) url(${bgImage ? bgImage : BradCaumpBg}) no-repeat scroll center center cover` }}>
+    <div className="ht__bradcaump__area" style={{
+        background: 'rgba(0, 0, 0, 0)' ,
+        backgroundImage: `url(${bgImage ? bgImage : BradCaumpBg})`, 
+        backgroundRepeat: 'no-repeat',
+        backgroundProsition:  'center center',
+        backgroundSize: 'cover' }}>
             <div className="ht__bradcaump__wrap">
                 <div className="container">
                     <div className="row">
@@ -16,7 +21,9 @@ const Bradcaump = ({title , pageName , bgImage}) => {
                                     <Link className="breadcrumb-item" to= "/">Home</Link>
                                   
                                   <span className="brd-separetor">/</span>
-                                  <span className="breadcrumb-item active"> {pageName ? pageName : pathname.replace('/' , " ")} </span>
+                                  <span className="breadcrumb-item active">
+                                       {pageName ? pageName : pathname.replace('/' , " ")} 
+                                 </span>
                                 </nav>
                             </div>
                         </div>

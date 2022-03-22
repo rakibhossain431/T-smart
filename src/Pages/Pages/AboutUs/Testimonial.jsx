@@ -1,9 +1,9 @@
 import React from 'react'
-import img1 from '../../../../../images/test/client/1.png'
-import img2 from '../../../../../images/test/client/2.png'
-import img3 from '../../../../../images/test/client/3.png'
-import bgImg from '../../../../../images/bg/4.jpg'
-const Customar = () => {
+import img1 from '../../../images/test/client/1.png'
+import img2 from '../../../images/test/client/2.png'
+import img3 from '../../../images/test/client/3.png'
+import bgImg from '../../../images/bg/4.jpg'
+const Customer = () => {
   return (
     <div className="htc__testimonial__area ptb--120" style={{background: `rgba(0, 0, 0, 0)` ,
        backgroundImage: `url(${bgImg})`,
@@ -73,4 +73,4 @@ const Customar = () => {
   )
 }
 
-export default Customar
+export default Customer

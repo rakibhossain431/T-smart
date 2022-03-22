@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from '../../Componet/Footer'
 import Header from '../../Componet/Header'
+import Bradcaump from '../../Componet/partials/BradCaump'
 
-import HeroS from './HeroS'
 import ShopCard from './ShopCard'
 
 
@@ -10,7 +10,7 @@ const Shop = () => {
   return (
     <div>
       <Header/>
-      <HeroS />
+      <Bradcaump title="Shop Page"/>
       <ShopCard />
       <Footer />
     </div>

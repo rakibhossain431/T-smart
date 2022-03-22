@@ -1,8 +1,9 @@
 import React from 'react'
 import Footer from '../../Componet/Footer'
 import Header from '../../Componet/Header'
+import Bradcaump from '../../Componet/partials/BradCaump'
 
-import backgroundImage from '../../images/bg/rakib.jpg'
+
 
 
 const Contact = () => {
@@ -11,40 +12,12 @@ const Contact = () => {
         <div className="wrapper fixed__footer">
         {/* <!-- Start Header Style --> */}
         <Header/>
+        <Bradcaump title="Contact Us" pageName="Contact Us"/>
 {/* 
         <!-- End header Style --> */}
 
         <div className="body__overlay"></div>
 
-
-        {/* <!-- Start Offset Wrapper --> */}
-            {/* ofset wrapperr ekhane hobe */}
-        {/* <!-- End Offset Wrapper -->
-        <!-- Start Bradcaump area --> */}
-        <div className="ht__bradcaump__area" style={{
-          background:"rgba(0, 0, 0, 0)",
-          backgroundImage:`url(${backgroundImage})`,
-          backgroundRepeat:"no-repeat",
-          backgroundPosition:"center center",
-          backgroundSize:"cover"
-        }}>
-            <div className="ht__bradcaump__wrap">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xs-12">
-                            <div className="bradcaump__inner text-center">
-                                <h2 className="bradcaump-title">Contact US</h2>
-                                <nav className="bradcaump-inner">
-                                  <a className="breadcrumb-item" href="index.html">Home</a>
-                                  <span className="brd-separetor">/</span>
-                                  <span className="breadcrumb-item active">Contact US</span>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         {/* <!-- End Bradcaump area --> */}
         {/* <!-- Start Contact Area --> */}
         <section className="htc__contact__area ptb--120 bg__white">
