@@ -3,6 +3,7 @@ import Footer from '../../Componet/Footer'
 import Header from '../../Componet/Header'
 
 import bgImg from '../../images/bg/rakib.jpg'
+
 const Pages = () => {
   return (
     <div>
@@ -29,6 +30,7 @@ const Pages = () => {
                 </div>
             </div>
         </div>
+       
       <Footer />
     </div>
   )

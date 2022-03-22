@@ -50,11 +50,9 @@ const AboutUs
             </div>
         </div>
         </section>
-      {/* About us stor stard */}
-        <ChooseUs />
-        <Staff />
-        <Customar />
-        {/* <BrandLogo /> */}
+      <ChooseUs/>
+      <Staff/>
+      <Customar/>
         
     </div>
 

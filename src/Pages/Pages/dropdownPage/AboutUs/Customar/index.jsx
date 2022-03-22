@@ -8,8 +8,11 @@ const Customar = () => {
     <div className="htc__testimonial__area ptb--120" style={{background: `rgba(0, 0, 0, 0)` ,
        backgroundImage: `url(${bgImg})`,
         backgroundRepet: 'no-repeat ',
-         backgroundProsition: "center" , 
-         backgroundSize: "cover" }}>
+         backgroundProsition: 'center center' , 
+         backgroundSize: 'cover',
+        backgroundDataBlackOverlay:6
+          
+         }}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-lg-12 col-sm-12 col-xs-12">
