@@ -7,6 +7,11 @@ import Contact from './Pages/Contact';
 import Shop from './Pages/Shop'
 import LoginRegister from './Pages/LoginRegister';
 import AboutUs from '../../t-smart/src/Pages/Pages/AboutUs'
+import Cart from './Pages/Pages/Cart';
+import CheckOut from './Pages/Pages/CheckOut';
+import ProduntDetails from './Pages/Pages/ProductDetails';
+
+
 
 
 function App() {
@@ -21,6 +26,9 @@ function App() {
            <Route path='/Shop' element={<Shop/>} />
            <Route path='/LoginRegister' element={<LoginRegister/>}/>
            <Route path='/about' element={<AboutUs />} />
+           <Route path='/cart' element={<Cart />} />
+           <Route path='/checkout' element={<CheckOut />} />
+           <Route path='/product-details' element={<ProduntDetails />} />
            
         </Routes>
      
