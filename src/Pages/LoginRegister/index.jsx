@@ -26,7 +26,7 @@ const LoginRegister = () => {
         <div className="htc__login__register bg__white ptb--130" style={{background: `rgba(0, 0, 0, 0)`,
            backgroundImage: `url(${bgImg})`,
            backgroundRepeat: `no-repeat`,
-           backgroundPosition:`center center`,  
+           backgroundPosition:`center `,  
            backgrounSize:`cover` }}>
         
             <div className="container">
@@ -35,9 +35,9 @@ const LoginRegister = () => {
                         <ul className="login__register__menu" role="tablist">
                             <li role="presentation" className={`login ${showLogin && "active"}`}>
                                 <a onClick={heandleLogin} 
-                                href="#login"
-                                 role="tab" 
-                                 data-toggle="tab">Login</a>
+                                  href="#login"
+                                  role="tab" 
+                                  data-toggle="tab">Login</a>
                             </li>
                             <li role="presentation" className={`register ${showRegister && "active"}`}>
                                 <a onClick={heandleRegister}

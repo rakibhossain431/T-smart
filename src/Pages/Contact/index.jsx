@@ -1,7 +1,9 @@
 import React from 'react'
 import Footer from '../../Componet/Footer'
 import Header from '../../Componet/Header'
+import Heroslider from '../../Componet/heroSlider/Heroslider'
 import Bradcaump from '../../Componet/partials/BradCaump'
+import Silk from '../../Componet/heroSlider/Silk'
 
 
 
@@ -106,6 +108,8 @@ const Contact = () => {
         
         {/* <!-- End Footer Area --> */}
     </div>
+
+    
     <Footer/>
     </div>
   )

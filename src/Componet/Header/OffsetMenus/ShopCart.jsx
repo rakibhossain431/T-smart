@@ -50,8 +50,12 @@ const ShopCart = ({setShoppingCart}) => {
                         <li className="total__price">$130.00</li>
                     </ul>
                     <ul className="shopping__btn">
-                        <li><a href="cart.html">View Cart</a></li>
-                        <li className="shp__checkout"><a href="checkout.html">Checkout</a></li>
+                        <li>
+                            <a href="/cart">View Cart</a>
+                        </li>
+                        <li className="shp__checkout">
+                            <a href="/checkout">Checkout</a>
+                        </li>
                     </ul>
                 </div>
             </div>
